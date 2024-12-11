@@ -12,7 +12,6 @@ td {
     border: 1px solid;
 }
 
-#m {
-    width: 25rem;
-    border: 1px solid;
+table {
+    display: block;
 }
