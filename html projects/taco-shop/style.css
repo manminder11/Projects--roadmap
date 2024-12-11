@@ -17,3 +17,9 @@ td {
 table {
     display: block;
 }
+
+form {
+    border: 2px solid;
+
+}
+
