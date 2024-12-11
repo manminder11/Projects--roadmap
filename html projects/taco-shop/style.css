@@ -6,3 +6,9 @@
 #fig {
     margin-left: 0 auto;
 }
+
+table {
+    display: block;
+    border-width: 2px;
+    border: 5px;
+}
