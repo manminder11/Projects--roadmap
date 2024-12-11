@@ -15,3 +15,7 @@ td {
 table {
     display: block;
 }
+
+div {
+    width: 20px;
+}
