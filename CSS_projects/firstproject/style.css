@@ -1,13 +1,36 @@
 h1 {
     font-weight: 900;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    border-block-start-color: 8px;
+    background-color: rgb(249, 187, 31);
+
+
+
 
 }
 
 
 ul {
     list-style-type: none;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
+    margin: 5px;
+    border-radius: 5;
+    position: relative;
 
+
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.l {
+    padding: 0.10%;
+    padding-top: 0.1%;
+    line-height: 3.5;
 }
