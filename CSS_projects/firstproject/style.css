@@ -5,6 +5,9 @@ h1 {
 }
 
 
-li {
+ul {
     list-style-type: none;
+    border: 2px solid black;
+    text-align: center;
+
 }
