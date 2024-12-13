@@ -44,3 +44,7 @@ h1 {
     padding-top: 0.1%;
     line-height: 3.5;
 }
+
+p a {
+    text-align: center;
+}
