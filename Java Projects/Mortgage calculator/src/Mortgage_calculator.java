@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-import java.text.NumberFormat;
 import java.util.Scanner;
 public class Mortgage_calculator {
    public static void main(String[]args){
@@ -9,25 +7,24 @@ public class Mortgage_calculator {
 
 
         Scanner scanner = new Scanner(System.in);
-        int p =  scanner.nextInt();
-        System.out.println("Principal:" + p);
+        int principal_amount =  scanner.nextInt();
+        System.out.println("Principal:" + principal_amount);
 
-        Scanner Annr = new Scanner(System.in);
-        double g =  Annr.nextDouble();
-        System.out.println("Annual Intrest Rate:" + g );
+        Scanner Annual_int_rate = new Scanner(System.in);
+        double Annual_intrest_rate =  Annual_int_rate.nextDouble();
+        Annual_intrest_rate = Annual_intrest_rate/12; // refering as months
+        System.out.println("Annual Intrest Rate:" + Annual_intrest_rate);
 
 
-        Scanner periods = new Scanner(System.in);
-        int pp =  periods.nextInt();
-        pp = pp/12;
-        System.out.println("Period (Years):" + pp
+        Scanner time = new Scanner(System.in);
+        int period =  time.nextInt();
+        period = period/12; // montly
+        System.out.println("Period (Years):" + period
         );
 
 
-
-        Scanner mort = new Scanner(System.in);
-       double m = mort.nextDouble();
-        System.out.println("Mortgage: $" + m);
+        Scanner Montly_payment = new Scanner(System.in);
+        double Monthly_payment = Montly_payment.nextDouble();
 
 
 
