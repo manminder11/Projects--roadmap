@@ -10,7 +10,7 @@ public class Mortgage_calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Principal:");
-       double principal_amount =  scanner.nextInt();
+       double principal_amount =  scanner.nextDouble();
 
 
 
